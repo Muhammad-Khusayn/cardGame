@@ -1,0 +1,56 @@
+'''
+This is the project that was given as an assignment in the "Foundations of Python" course. The assignment was meant to
+encourage students to use OOP skills obtained during the classes. In particular, students were asked to create a "Card
+Game" using classes, "def" functions, parent classes etc. of Python programming language.
+'''
+
+'''
+So as to be able to run the program you might be required to have any type of IDE (e.g. Spyder, PyCharm, Visual Code
+Studio etc.). Just open the file named: "main.py" and press the run button on your code editor. Any of the above-mentioned
+editors has to be able to support turtle graphics so you will not have problems in running the program.
+'''
+
+'''
+There were used only three built in libraries of "Python": turtle, time and random.
+
+I have created some classes so as to make my program more efficient.
+First there was created "CharacterPen()" class so as to be able to draw custom letters using turtle module by just moving
+turtle within x and y arrays. later I rendered the characters on the screen and put on time.sleep following which I
+cleared all the drawings so as to make the screen ready for the game to start.
+
+Second, the class Card() was created to draw the cards instead of using outsource images. The cards were also drawn using
+turtle module.
+
+Third, the class of Deck() was created so as to create a deck of cards consisting of 4 suits (13 cards each) in this class
+the "Random" library was used so as to randomise cards popping on the screen.
+'''
+
+'''
+Then I used turtle.listen() function so as to make my program listen to the keyboard. So as to make cards reappear each
+time when the "space" button is pressed I created a new "def" function with "for loop" which renders cards in range 5 and
+clears the screen whn the "space" button is pressed and repeats its action by randomly popping 5 different cards from the
+deck. The beauty of thi function is that the cards are never repeated.
+'''
+
+'''
+Finnally, using the function of "Scree.listen()" I cleared all the drawings from the screen so as to end the game. Following
+this, I have used earlier created "CharacterPen()" so as to draw "Thank you" on the screen and letting the players know
+that game is ended.
+'''
+
+////______________________________________________________________________________________________________________////
+In order to download the IDE I used you may use the link below:
+For Windows: https://www.jetbrains.com/pycharm/download/#section=windows
+For macOS: https://www.jetbrains.com/pycharm/download/#section=mac
+For Linux: https://www.jetbrains.com/pycharm/download/#section=linux
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+////______________________________________________________________________________________________________________////
+Social media:
+Instagram:__________@isayev_muhammad_17
+Twitter:____________@Muhamma46397662
+e-mail address:_____isayevm17@gmail.com
+////______________________________________________________________________________________________________________////
+
+
